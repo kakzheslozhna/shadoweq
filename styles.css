@@ -185,7 +185,7 @@ nav {
     .burger {
         display: flex;
         position: absolute;
-        right: 10px; /* Уменьшаем отступ справа, чтобы крестик не выходил за границы */
+        right: 10%; /* Уменьшаем отступ справа, чтобы крестик не выходил за границы */
         top: 50%;
         transform: translateY(-50%);
         z-index: 1001;
@@ -196,8 +196,8 @@ nav {
     }
 
     .burger span {
-        width: 20px; /* Уменьшаем ширину полосок, чтобы они лучше помещались */
-        height: 3px; /* Уменьшаем высоту полосок */
+        width: 30px; /* Уменьшаем ширину полосок, чтобы они лучше помещались */
+        height: 5px; /* Уменьшаем высоту полосок */
         background-color: #00b4d8;
         margin: 3px 0; /* Уменьшаем отступы между полосками */
         transition: all 0.3s ease;
@@ -206,7 +206,7 @@ nav {
     }
 
     .burger.open span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 5px); /* Корректируем трансформацию */
+        transform: rotate(45deg) translate(7px, 7px); /* Корректируем трансформацию */
     }
 
     .burger.open span:nth-child(2) {
@@ -214,7 +214,7 @@ nav {
     }
 
     .burger.open span:nth-child(3) {
-        transform: rotate(-45deg) translate(5px, -5px); /* Корректируем трансформацию */
+        transform: rotate(-45deg) translate(7px, -7px); /* Корректируем трансформацию */
     }
 
     .nav-menu li {
