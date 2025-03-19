@@ -439,9 +439,9 @@ nav {
 }
 
 .gallery-item {
-    width: 100px; /* Задаем ширину */
+    width: 250px; /* Задаем ширину */
     height: auto; /* Автоматическая высота для сохранения пропорций */
-    max-height: 200px; /* Ограничиваем максимальную высоту */
+    max-height: 400px; /* Ограничиваем максимальную высоту */
     object-fit: contain; /* Сохраняет целостность изображения */
     border-radius: 10px;
     transition: transform 0.3s ease;
