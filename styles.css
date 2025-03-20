@@ -337,7 +337,7 @@ nav {
 #hero {
     text-align: center;
     padding: 100px 0 80px;
-    margin-top: 150px;
+    margin: 150px 50px 0 50px;
     border-radius: 15px;
     background: linear-gradient(135deg, #2a2a2a, #1a1a1a);
     position: relative;
@@ -391,7 +391,7 @@ nav {
 }
 
 .features-grid:hover {
-    transform: scale(1.15);
+    transform: scale(1.2);
 }
 
 .feature-item {
@@ -418,6 +418,7 @@ nav {
 /* About Section */
 #about {
     border-radius: 15px;
+    margin: 0 50px 0 50px;
     padding: 80px 0;
     background-color: #252525;
     text-align: center;
@@ -458,6 +459,7 @@ nav {
     max-height: 400px; /* Ограничиваем максимальную высоту */
     object-fit: contain; /* Сохраняет целостность изображения */
     border-radius: 10px;
+    margin: 0 50px 0 50px;
     transition: transform 0.3s ease;
     background-color: #222; /* Чтобы видно было границы при нестандартных размерах */
 }
@@ -542,6 +544,7 @@ nav {
 /* FAQ Section */
 #faq {
     border-radius: 15px;
+    margin: 0 50px 0 50px;
     padding: 80px 0;
     background-color: #252525;
 }
